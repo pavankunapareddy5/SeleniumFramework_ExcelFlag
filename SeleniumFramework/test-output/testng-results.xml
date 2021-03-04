@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="12727" started-at="2021-03-04T18:00:45Z" finished-at="2021-03-04T18:00:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12727" started-at="2021-03-04T18:00:45Z" finished-at="2021-03-04T18:00:58Z">
+      <class name="com.training.testcases.BaseTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.training.testcases.BaseTest@4416d64f]" name="setUpSuite" is-config="true" duration-ms="128" started-at="2021-03-04T18:00:45Z" finished-at="2021-03-04T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.training.testcases.BaseTest@4416d64f]" name="tearDownSuite" is-config="true" duration-ms="253" started-at="2021-03-04T18:00:45Z" finished-at="2021-03-04T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.training.testcases.BaseTest -->
+      <class name="com.training.testcases.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.testcases.LoginTests@6bf08014]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-04T18:00:45Z" finished-at="2021-03-04T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="amazon1(java.lang.reflect.Method, java.util.Hashtable)[pri:1, instance:com.training.testcases.LoginTests@6bf08014]" name="amazon1" duration-ms="11766" started-at="2021-03-04T18:00:45Z" description="Executing from Excel" finished-at="2021-03-04T18:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{SearchField=DELL, password=, execute=yes, firstname=, TestCaseName=amazon1, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.testcases.LoginTests@6bf08014]" name="tearDown" is-config="true" duration-ms="779" started-at="2021-03-04T18:00:57Z" finished-at="2021-03-04T18:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.testcases.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

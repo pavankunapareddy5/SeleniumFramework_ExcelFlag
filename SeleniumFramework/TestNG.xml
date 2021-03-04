@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+    <listeners>
+        <listener class-name="com.training.reports.Reporting"/>
+        <listener class-name="listener.AnnotationTransformer"/>
+
+    </listeners>
+
+
+    <test thread-count="1"  name="Test">
+        <classes>
+            <class name="com.training.testcases.BaseTest"/>
+            <class name="com.training.testcases.HomePageTests"/>
+            <class name="com.training.testcases.LoginTests"/>
+
+
+        </classes>
+    </test> <!-- Test -->
+</suite>  <!-- Suite -->
