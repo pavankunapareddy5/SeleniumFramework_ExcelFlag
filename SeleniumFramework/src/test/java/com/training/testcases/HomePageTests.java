@@ -14,6 +14,7 @@ public class HomePageTests extends  BaseTest{
 
     WebDriver driver;
 
+    // Pavan Sync
     /*@BeforeMethod
     public  void setUp() {
 
