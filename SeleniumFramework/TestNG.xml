@@ -14,7 +14,7 @@
             <class name="com.training.testcases.BaseTest"/>
             <class name="com.training.testcases.HomePageTests"/>
             <class name="com.training.testcases.LoginTests"/>
-
+			<class name="api_WebServices.Get_Request"/>
 
         </classes>
     </test> <!-- Test -->

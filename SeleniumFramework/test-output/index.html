@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -102,7 +104,7 @@
                     <div class="method-list-content passed suite-Regression_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.training.testcases.LoginTests" hash-for-method="amazon1(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) ...)">amazon1(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="api_WebServices.Get_Request" hash-for-method="getRequest_StatusCode({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK...)">getRequest_StatusCode({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_Suite -->
@@ -120,15 +122,15 @@
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.training.testcases.LoginTests</span>
+              <span class="class-name">api_WebServices.Get_Request</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="amazon1(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) ...)">
-                  </a> <!-- amazon1(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) ...) -->
-                  <span class="method-name">amazon1</span>
-                  <span class="parameters">(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) throws java.lang.Exception, {SearchField=DELL, password=, execute=yes, firstname=, TestCaseName=amazon1, username=})</span>
+                  <a name="getRequest_StatusCode({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK...)">
+                  </a> <!-- getRequest_StatusCode({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK...) -->
+                  <span class="method-name">getRequest_StatusCode</span>
+                  <span class="parameters">({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK-60420c0b4c2f88004338da18-bafadb03214df204b77ec3c6faadcf96a5, baseUri=https://api.postman.com, execute=yes, password=, TestCaseName=getRequest_StatusCode})</span>
                   <em>
 (Executing from Excel)                  </em>
                 </div> <!-- method-content -->
@@ -143,7 +145,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.training.reports.Reporting&quot;/&gt;
@@ -154,6 +156,7 @@
       &lt;class name=&quot;com.training.testcases.BaseTest&quot;/&gt;
       &lt;class name=&quot;com.training.testcases.HomePageTests&quot;/&gt;
       &lt;class name=&quot;com.training.testcases.LoginTests&quot;/&gt;
+      &lt;class name=&quot;api_WebServices.Get_Request&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Regression Suite --&gt;
@@ -167,7 +170,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,14 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'amazon1')
-data.setCell(0, 2, 'com.training.testcases.LoginTests')
-data.setCell(0, 3, 12291);
+data.setCell(0, 1, 'getRequest_StatusCode')
+data.setCell(0, 2, 'api_WebServices.Get_Request')
+data.setCell(0, 3, 3883);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -217,7 +220,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -231,6 +234,17 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.training.testcases.LoginTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">amazon1</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">api_WebServices.Get_Request</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDownSuite</span>
                 <br/>
@@ -253,26 +267,27 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
                 <span class="method-name">tearDownSuite</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">142 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.training.testcases.LoginTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">api_WebServices.Get_Request</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">409 ms</span>
+                <span class="method-start">562 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">amazon1(public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) ...)</span>
-                <span class="method-start">495 ms</span>
+                <span class="method-name">getRequest_StatusCode({pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK...)</span>
+                <span class="method-start">574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12821 ms</span>
+                <span class="method-start">4484 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

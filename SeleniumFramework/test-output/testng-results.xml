@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="13255" started-at="2021-03-04T18:08:16Z" finished-at="2021-03-04T18:08:29Z">
+  <suite name="Regression Suite" duration-ms="4098" started-at="2021-03-08T20:48:10 AST" finished-at="2021-03-08T20:48:14 AST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13255" started-at="2021-03-04T18:08:16Z" finished-at="2021-03-04T18:08:29Z">
+    <test name="Test" duration-ms="4098" started-at="2021-03-08T20:48:10 AST" finished-at="2021-03-08T20:48:14 AST">
       <class name="com.training.testcases.BaseTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.training.testcases.BaseTest@50dfbc58]" name="setUpSuite" is-config="true" duration-ms="116" started-at="2021-03-04T18:08:16Z" finished-at="2021-03-04T18:08:16Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.training.testcases.BaseTest@5b218417]" name="setUpSuite" is-config="true" duration-ms="141" started-at="2021-03-08T20:48:10 AST" finished-at="2021-03-08T20:48:10 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.training.testcases.BaseTest@50dfbc58]" name="tearDownSuite" is-config="true" duration-ms="247" started-at="2021-03-04T18:08:16Z" finished-at="2021-03-04T18:08:16Z">
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.training.testcases.BaseTest@5b218417]" name="tearDownSuite" is-config="true" duration-ms="250" started-at="2021-03-08T20:48:10 AST" finished-at="2021-03-08T20:48:10 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
       </class> <!-- com.training.testcases.BaseTest -->
-      <class name="com.training.testcases.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.testcases.LoginTests@4416d64f]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-04T18:08:16Z" finished-at="2021-03-04T18:08:16Z">
+      <class name="api_WebServices.Get_Request">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:api_WebServices.Get_Request@645aa696]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-08T20:48:11 AST" finished-at="2021-03-08T20:48:11 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="amazon1(java.lang.reflect.Method, java.util.Hashtable)[pri:1, instance:com.training.testcases.LoginTests@4416d64f]" name="amazon1" duration-ms="12291" started-at="2021-03-04T18:08:16Z" description="Executing from Excel" finished-at="2021-03-04T18:08:28Z">
+        <test-method status="PASS" signature="getRequest_StatusCode(java.util.Hashtable)[pri:1, instance:api_WebServices.Get_Request@645aa696]" name="getRequest_StatusCode" duration-ms="3883" started-at="2021-03-08T20:48:11 AST" description="Executing from Excel" finished-at="2021-03-08T20:48:14 AST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.training.testcases.LoginTests.amazon1(java.lang.reflect.Method,java.util.Hashtable) throws java.lang.Exception]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{SearchField=DELL, password=, execute=yes, firstname=, TestCaseName=amazon1, username=}]]>
+                <![CDATA[{pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK-60420c0b4c2f88004338da18-bafadb03214df204b77ec3c6faadcf96a5, baseUri=https://api.postman.com, execute=yes, password=, TestCaseName=getRequest_StatusCode}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazon1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.testcases.LoginTests@4416d64f]" name="tearDown" is-config="true" duration-ms="796" started-at="2021-03-04T18:08:28Z" finished-at="2021-03-04T18:08:29Z">
+        </test-method> <!-- getRequest_StatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:api_WebServices.Get_Request@645aa696]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-03-08T20:48:14 AST" finished-at="2021-03-08T20:48:14 AST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.testcases.LoginTests -->
+      </class> <!-- api_WebServices.Get_Request -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->
 </testng-results>
