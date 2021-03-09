@@ -3,7 +3,7 @@
 package api_WebServices;
 
 import io.restassured.response.Response;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 
