@@ -4,6 +4,9 @@ import com.training.browser.Driver;
 import com.training.constants.Constants;
 import com.training.reports.LogStatus;
 
+
+import java.util.Hashtable;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -72,4 +75,7 @@ public class BasePage {
             e.getMessage();
         }
     }
+    
+   
+	
 }
