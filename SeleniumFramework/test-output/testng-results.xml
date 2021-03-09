@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+>>>>>>> stash
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2021-03-09T17:49:50Z" name="Regression Suite" finished-at="2021-03-09T17:49:55Z" duration-ms="4579">
+=======
+  <suite name="Default suite" duration-ms="3057" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
+>>>>>>> stash
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2021-03-09T17:49:50Z" name="Test" finished-at="2021-03-09T17:49:55Z" duration-ms="4579">
       <class name="api_WebServices.Get_Request">
         <test-method is-config="true" signature="setUp()[pri:0, instance:api_WebServices.Get_Request@58cd06cb]" started-at="2021-03-09T17:49:51Z" name="setUp" finished-at="2021-03-09T17:49:51Z" duration-ms="0" status="PASS">
@@ -39,4 +48,15 @@
       </class> <!-- com.training.testcases.BaseTest -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->
+=======
+    <test name="Default test" duration-ms="3057" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
+      <class name="api_WebServices.Get_Request01">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:api_WebServices.Get_Request01@1c93084c]" name="test_01" duration-ms="2941" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+      </class> <!-- api_WebServices.Get_Request01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> stash
 </testng-results>
