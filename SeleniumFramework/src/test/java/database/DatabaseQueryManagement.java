@@ -38,6 +38,7 @@ public class DatabaseQueryManagement  {
 		}
 		
 		return this;
+		//
 		
 	}
 }

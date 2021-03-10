@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
-=======
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
->>>>>>> stash
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2021-03-09T17:49:50Z" name="Regression Suite" finished-at="2021-03-09T17:49:55Z" duration-ms="4579">
-=======
-  <suite name="Default suite" duration-ms="3057" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
->>>>>>> stash
+  <suite name="Default suite" duration-ms="2342" started-at="2021-03-10T13:30:35Z" finished-at="2021-03-10T13:30:38Z">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2021-03-09T17:49:50Z" name="Test" finished-at="2021-03-09T17:49:55Z" duration-ms="4579">
-      <class name="api_WebServices.Get_Request">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api_WebServices.Get_Request@58cd06cb]" started-at="2021-03-09T17:49:51Z" name="setUp" finished-at="2021-03-09T17:49:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getRequest_StatusCode(java.util.Hashtable)[pri:1, instance:api_WebServices.Get_Request@58cd06cb]" started-at="2021-03-09T17:49:51Z" name="getRequest_StatusCode" description="Executing from Excel" finished-at="2021-03-09T17:49:55Z" duration-ms="4316" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{pathLocator=/workspaces, username=, SearchField=, headerKey=X-Api-Key, firstname=, headerValue=PMAK-60420c0b4c2f88004338da18-bafadb03214df204b77ec3c6faadcf96a5, baseUri=https://api.postman.com, execute=yes, password=, TestCaseName=getRequest_StatusCode}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getRequest_StatusCode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:api_WebServices.Get_Request@58cd06cb]" started-at="2021-03-09T17:49:55Z" name="tearDown" finished-at="2021-03-09T17:49:55Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- api_WebServices.Get_Request -->
-      <class name="com.training.testcases.BaseTest">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.training.testcases.BaseTest@7a34b7b8]" started-at="2021-03-09T17:49:50Z" name="setUpSuite" finished-at="2021-03-09T17:49:50Z" duration-ms="230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.training.testcases.BaseTest@7a34b7b8]" started-at="2021-03-09T17:49:50Z" name="tearDownSuite" finished-at="2021-03-09T17:49:50Z" duration-ms="326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownSuite -->
-      </class> <!-- com.training.testcases.BaseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Regression Suite -->
-=======
-    <test name="Default test" duration-ms="3057" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
+    <test name="Default test" duration-ms="2342" started-at="2021-03-10T13:30:35Z" finished-at="2021-03-10T13:30:38Z">
       <class name="api_WebServices.Get_Request01">
-        <test-method status="PASS" signature="test_01()[pri:0, instance:api_WebServices.Get_Request01@1c93084c]" name="test_01" duration-ms="2941" started-at="2021-03-09T10:56:34 AST" finished-at="2021-03-09T10:56:37 AST">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:api_WebServices.Get_Request01@747edf66]" name="test_01" duration-ms="2234" started-at="2021-03-10T13:30:35Z" finished-at="2021-03-10T13:30:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01 -->
       </class> <!-- api_WebServices.Get_Request01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
->>>>>>> stash
 </testng-results>
