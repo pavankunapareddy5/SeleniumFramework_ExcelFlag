@@ -18,6 +18,11 @@ public class Constants {
     public static final String FIREFOX = "firefox";
     public static final String IE = "ie";
     public static final String TESTDATASHEETNAME = "Sheet1";
+    
+    //DB constants
+    public static final String DBCONSTRING = "jdbc:mysql://localhost:3306/business";
+    public static final String DBUID = "root";
+    public static final String DBPWD = "123456";
 
 
 }
