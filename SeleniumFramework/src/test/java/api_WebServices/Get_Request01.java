@@ -22,9 +22,6 @@ public class Get_Request01 {
 		
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
-		//FinalSync
-		//1234
-		//4567
-		//Test Sync
+		
 	}
 }
