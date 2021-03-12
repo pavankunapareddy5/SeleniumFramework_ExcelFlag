@@ -6,11 +6,15 @@ import static io.restassured.RestAssured.*;
 import java.sql.SQLException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import database.DatabaseQueryManagement;
 import io.restassured.response.Response;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 public class Get_Request01 {
+	
+	DatabaseQueryManagement db = new DatabaseQueryManagement();
 	
 	@Test
 	void test_01() throws ClassNotFoundException, SQLException {
@@ -24,7 +28,8 @@ public class Get_Request01 {
 		System.out.println(response.getTime());
 		
 		int statusCode = response.getStatusCode();
-		Assert.assertEquals(statusCode, 200);			
+		Assert.assertEquals(statusCode, 200);	
+		db.connectToDB().executeQuery();
 	}
 	
 	@Test
