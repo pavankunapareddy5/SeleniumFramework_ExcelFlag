@@ -24,7 +24,7 @@ public class DatabaseQueryManagement  {
 			Connection con = DriverManager.getConnection(Constants.DBCONSTRING,Constants.DBUID,Constants.DBPWD);
 			System.out.println("Connected to MYSQL DB");
 			stmt = con.createStatement();
-			
+//			dbMgmt.connectToDB().executeQuery();
 			return this;
 			
 	}
