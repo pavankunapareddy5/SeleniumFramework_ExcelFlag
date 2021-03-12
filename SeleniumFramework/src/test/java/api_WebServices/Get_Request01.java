@@ -31,5 +31,7 @@ public class Get_Request01 {
 		Assert.assertEquals(statusCode, 200);
 		dbMgmt.connectToDB().executeQuery();
 		
+		
+		
 	}
 }
