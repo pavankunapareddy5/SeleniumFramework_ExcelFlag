@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- report theme -->
+    <!-- standard, dark -->
+    <dateFormat>yyyy-MM-dd</dateFormat>
+
+    <!-- document encoding -->
+    <!-- defaults to UTF-8 -->
+    <documentTitle>AQCC Report</documentTitle>
+
+    <!-- protocol for script and stylesheets -->
+    <!-- defaults to https -->
+    <encoding>UTF-8</encoding>
+
+    <!-- title of the document -->
+    <protocol>https</protocol>
+
+    <!-- report name - displayed at top-nav -->
+    <reportHeadline>Automation Report</reportHeadline>
+
+    <!-- report headline - displayed at top-nav, after reportHeadline -->
+    <reportName>AQCC</reportName>
+
+    <!-- global date format override -->
+    <!-- defaults to yyyy-MM-dd -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+
+        });
+      ]]>
+    </scripts>
+
+    <!-- global time format override -->
+    <!-- defaults to HH:mm:ss -->
+    <styles>
+      <![CDATA[
+
+      ]]>
+    </styles>
+
+    <!-- custom javascript -->
+    <theme>standard</theme>
+
+    <!-- custom styles -->
+    <timeFormat>HH:mm:ss</timeFormat>
+  </configuration>
+</extentreports>
